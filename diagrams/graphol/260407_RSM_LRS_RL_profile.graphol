@@ -3,7 +3,6 @@
   <project version="https://cdm.ovh/rsm/linearReferencing/rlrs/0.6/rlrs" name="RSM_LRS">
     <ontology addLabelFromSimpleName="0" prefix="rlrs" iri="https://cdm.ovh/rsm/linearReferencing/rlrs" lang="en" addLabelFromUserInput="0">
       <imports>
-        <import iri="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl" version="" location="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl" isLocal="0"/>
         <import iri="https://cdm.ovh/rsm/geosparql_adapter/rgeo" version="https://cdm.ovh/rsm/geosparql_adapter/rgeo" location="https://cdm.ovh/rsm/geosparql_adapter/rgeo" isLocal="0"/>
         <import iri="https://cdm.ovh/rsm/list2/list2" version="https://cdm.ovh/rsm/list2/list2" location="https://cdm.ovh/rsm/list2/list2" isLocal="0"/>
       </imports>

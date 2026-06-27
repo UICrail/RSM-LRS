@@ -22,8 +22,7 @@
 
 <https://cdm.ovh/rsm/linearReferencing/rlrs> rdf:type owl:Ontology ;
                                               owl:versionIRI <https://cdm.ovh/rsm/linearReferencing/rlrs/0.6/rlrs> ;
-                                              owl:imports <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> ,
-                                                          <https://cdm.ovh/rsm/geosparql_adapter/rgeo> ,
+                                              owl:imports <https://cdm.ovh/rsm/geosparql_adapter/rgeo> ,
                                                           <https://cdm.ovh/rsm/list2/list2> ;
                                               dc:creator "Airy Magnien, UIC" ;
                                               dc:description "Linear referencing ontology based on ISO 19148:2021. Adds the notion of intrinsic coordinate used by the RSM localisation ontology."@en ;
