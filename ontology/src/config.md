@@ -1,5 +1,5 @@
 ---
-main_ontology: ontology/src/rlrs.ttl
+main_ontology: ontology/src/rlrs_rl_profile.ttl
 reasoner: hermit
 ---
 
