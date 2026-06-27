@@ -47,3 +47,15 @@ The notion of "intrinsic coordinate" was part of the RTM positioning package and
 * intrinsic coordinates remain instrumental in the localisation package, to define linear locations that include segments of linear elements (e.g. the location of a speed reduction or the location of a tunnel)
 * intrinsic coordinates are defined (ISO-compliant) as a linear referencing system using a nominal geometry (as ISO Linear element) over a linear net element (in the sense of RSM topology) and using Linear Referencing Method "Interpolating". To implement that definition, the ISO-compliant part of the ontology suffices and does not need adaptations.
 * in addition, intrinsic coordinates can be represented using using a dedicated "shorthand" close to earlier RTM/RSM version.
+
+# DL and RL profile
+
+The linear referencing ontology is available in two OWL profiles:
+* OWL2 DL : all queries are decidable
+* OWL2 RL : all queries are tractable (they use polynomial time and resources)
+
+To fit into the RL profile:
+* all existential restriction in superclasses  (... "some values from"...) were removed from the RLRS ontology.
+* the DUL import was removed too: many DUL axioms are many existential restrictions too.
+
+The choice is left to the user. We recommend using the DL profile at ontology design and validation stage, and RL when performing heavy reasoning on curated data.
