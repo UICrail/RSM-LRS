@@ -1,6 +1,6 @@
 # Purpose
 
-Create a small LRS ontology for the purpose of RSM.
+Create a small LRS ontology for the purpose of RSM, conforming ISO19148.
 
 # Rationale
 
