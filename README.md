@@ -45,8 +45,8 @@ The notion of "intrinsic coordinate" was part of the RTM positioning package and
 
 * intrinsic coordinates are no longer necessary for describing topology (linear element extremities being embodied by "ports");
 * intrinsic coordinates remain instrumental in the localisation package, to define linear locations that include segments of linear elements (e.g. the location of a speed reduction or the location of a tunnel)
-* intrinsic coordinates are defined (ISO-compliant) as a linear referencing system using a nominal geometry (as ISO Linear element) over a linear net element (in the sense of RSM topology) and using Linear Referencing Method "Interpolating". To implement that definition, the ISO-compliant part of the ontology suffices and does not need adaptations.
-* in addition, intrinsic coordinates can be represented using using a dedicated "shorthand" close to earlier RTM/RSM version.
+* intrinsic coordinates are defined (ISO-compliant) as a linear referencing system using a nominal geometry (as Linear element in the sense of ISO19148) over a linear net element (in the sense of RSM topology) and using Linear Referencing Method "Interpolating". To implement that definition, the ISO-compliant part of the ontology suffices and does not need adaptations. "Nominal geometry" is obviously conventional, and a conventional definition is proposed in the RSM GeoSPARQL adapter ontology.
+* in addition, intrinsic coordinates can be represented using a dedicated "shorthand" close to earlier RTM/RSM version.
 
 # DL and RL profile
 
